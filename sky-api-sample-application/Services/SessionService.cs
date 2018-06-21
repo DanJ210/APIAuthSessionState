@@ -19,7 +19,6 @@ namespace CHS.SkyApiAuthCodeFlow
         public SessionService(IHttpContextAccessor httpContextAccessor)
         {
             _httpContextAccessor = httpContextAccessor;
-            //TestService testService = new TestService();
         }
         
         
@@ -55,16 +54,6 @@ namespace CHS.SkyApiAuthCodeFlow
         public string GetRefreshToken()
         {
             return TryGetString(REFRESH_TOKEN_NAME);
-        }
-        
-        public void SetStringValue(string value)
-        {
-            _httpContextAccessor.HttpContext.Session.SetString("Test", "Testing");
-        }
-
-        public string GetStringValue(string value)
-        {
-            return _httpContextAccessor.HttpContext.Session.GetString(value);
         }
         
         /// <summary>

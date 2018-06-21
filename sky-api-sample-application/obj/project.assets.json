@@ -11510,11 +11510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daniel.jackson\\Source\\sky-api-sample-application\\sky-api-sample-application.csproj",
+      "projectUniqueName": "c:\\Users\\daniel.jackson\\Source\\repos\\APIAuthSessionState\\sky-api-sample-application\\sky-api-sample-application.csproj",
       "projectName": "sky-api-sample-application",
-      "projectPath": "C:\\Users\\daniel.jackson\\Source\\sky-api-sample-application\\sky-api-sample-application.csproj",
+      "projectPath": "c:\\Users\\daniel.jackson\\Source\\repos\\APIAuthSessionState\\sky-api-sample-application\\sky-api-sample-application.csproj",
       "packagesPath": "C:\\Users\\daniel.jackson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daniel.jackson\\Source\\sky-api-sample-application\\obj\\",
+      "outputPath": "c:\\Users\\daniel.jackson\\Source\\repos\\APIAuthSessionState\\sky-api-sample-application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

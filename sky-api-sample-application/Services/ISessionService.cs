@@ -8,8 +8,5 @@ namespace CHS.SkyApiAuthCodeFlow
         void ClearTokens();
         string GetAccessToken();
         string GetRefreshToken();
-
-        void SetStringValue(string value);
-        string GetStringValue(string value);
     }
 }
