@@ -15,14 +15,11 @@ namespace CHS.SkyApiAuthCodeFlow
     {
             
         private readonly IAuthenticationService _authService;
-        private readonly ITestService _testService;
 
-        public AuthenticationController(IAuthenticationService authService, ITestService testService) 
+        public AuthenticationController(IAuthenticationService authService) 
         {
             _authService = authService;
-            _testService = testService;
         }
-        
         
         /// <summary>
         /// Returns a JSON response determining session's authenticated status.
@@ -30,8 +27,6 @@ namespace CHS.SkyApiAuthCodeFlow
         [HttpGet("authenticated")]
         public ActionResult Authenticated()
         {
-            _testService.StoreSession();
-            _testService.GetSession();
             return Json(new { 
                 authenticated = _authService.IsAuthenticated()
             });

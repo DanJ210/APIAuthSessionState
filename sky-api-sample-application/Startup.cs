@@ -47,7 +47,6 @@ namespace CHS.SkyApiAuthCodeFlow
             services.AddSingleton<IAuthenticationService, AuthenticationService>();
             services.AddSingleton<IConstituentsService, ConstituentsService>();
             services.AddSingleton<ISessionService, SessionService>();
-            services.AddSingleton<ITestService, TestService>();
 
             // Add MVC.
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
