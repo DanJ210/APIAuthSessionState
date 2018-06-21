@@ -3,3 +3,7 @@
 ################################################################################
 
 /sky-api-sample-application/appsettings.Development.json
+/sky-api-sample-application/bin
+/sky-api-sample-application/obj
+/sky-api-sample-application/.vscode
+/sky-api-sample-application/.vs
